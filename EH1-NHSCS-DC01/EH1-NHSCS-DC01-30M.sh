@@ -5,7 +5,7 @@ if ping -c 1 10.162.150.10 > /dev/null
     dc01stat1=$(cat /cachet-scripts/status/eh1-nhscs-dc01-S1.txt)
     dc01stat2=$(cat /cachet-scripts/status/eh1-nhscs-dc01-S2.txt)
     dc01stat3=$(cat /cachet-scripts/status/eh1-nhscs-dc01-S3.txt)
-    dc01sta4=$(cat /cachet-scripts/status/eh1-nhscs-dc01-S4.txt)
+    dc01stat4=$(cat /cachet-scripts/status/eh1-nhscs-dc01-S4.txt)
     if [ $dc01stat1 = "1" ];
       then
         echo 0 > /cachet-scripts/status/eh1-nhscs-dc01-S1.txt
