@@ -9,3 +9,15 @@ sudo touch /cachet-scripts/status/eh1-nhscs-dc01-S1.txt
 sudo touch /cachet-scripts/status/eh1-nhscs-dc01-S2.txt
 sudo touch /cachet-scripts/status/eh1-nhscs-dc01-S3.txt
 sudo touch /cachet-scripts/status/eh1-nhscs-dc01-S4.txt
+sudo touch /cachet-scripts/status/eh2-nshcs-dc02-S1.txt
+sudo touch /cachet-scripts/status/eh2-nshcs-dc02-S2.txt
+sudo touch /cachet-scripts/status/eh2-nshcs-dc02-S3.txt
+sudo touch /cachet-scripts/status/eh2-nshcs-dc02-S4.txt
+sudo touch /cachet-scripts/status/eh1-nshcs-ip01-S1.txt
+sudo touch /cachet-scripts/status/eh1-nshcs-ip01-S2.txt
+sudo touch /cachet-scripts/status/eh1-nshcs-ip01-S3.txt
+sudo touch /cachet-scripts/status/eh1-nshcs-ip01-S4.txt
+sudo touch /cachet-scripts/status/eh2-nshcs-ip02-S1.txt
+sudo touch /cachet-scripts/status/eh2-nshcs-ip02-S2.txt
+sudo touch /cachet-scripts/status/eh2-nshcs-ip02-S3.txt
+sudo touch /cachet-scripts/status/eh2-nshcs-ip02-S4.txt
