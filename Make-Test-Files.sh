@@ -21,3 +21,11 @@ sudo touch /cachet-scripts/status/eh2-nshcs-ip02-S1.txt
 sudo touch /cachet-scripts/status/eh2-nshcs-ip02-S2.txt
 sudo touch /cachet-scripts/status/eh2-nshcs-ip02-S3.txt
 sudo touch /cachet-scripts/status/eh2-nshcs-ip02-S4.txt
+sudo touch /cachet-scripts/status/eh1-core-r1-S1.txt
+sudo touch /cachet-scripts/status/eh1-core-r1-S2.txt
+sudo touch /cachet-scripts/status/eh1-core-r1-S3.txt
+sudo touch /cachet-scripts/status/eh1-core-r1-S4.txt
+sudo touch /cachet-scripts/status/eh1-core-r2-S1.txt
+sudo touch /cachet-scripts/status/eh1-core-r2-S2.txt
+sudo touch /cachet-scripts/status/eh1-core-r3-S3.txt
+sudo touch /cachet-scripts/status/eh1-core-r4-S4.txt
