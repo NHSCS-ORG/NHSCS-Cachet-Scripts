@@ -1,6 +1,6 @@
 #!/bin/bash
 #Alert Script for eh1-core-r1 - 10 Minute Intervals
-if ping -c 1 10.162.150.1 > /dev/null
+if ping -c 1 10.162.155.1 > /dev/null
   then
     dc01stat1=$(cat /cachet-scripts/status/eh1-core-r1-S1.txt)
     dc01stat2=$(cat /cachet-scripts/status/eh1-core-r1-S2.txt)

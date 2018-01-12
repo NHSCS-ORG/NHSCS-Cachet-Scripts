@@ -1,5 +1,5 @@
 #!/bin/bash
-#Alert Script for EH1-NHSCS-DC01 - 15 Minute Intervals
+#Alert Script for eh1-nhscs-dc01 - 15 Minute Intervals
 if ping -c 1 10.162.150.10 > /dev/null
   then
     dc01stat1=$(cat /cachet-scripts/status/eh1-nhscs-dc01-S1.txt)
