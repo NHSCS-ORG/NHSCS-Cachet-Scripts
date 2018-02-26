@@ -27,7 +27,7 @@ if ping -c 1 10.162.150.17 > /dev/null
     if [ $dc01stat4 = "1" ];
       then
         echo 0 > /cachet-scripts/status/eh1-nhscs-laps01-S4.txt
-        curl -H "X-Cachet-Token: 0dKkef9ucNbQ0mGbxGkZ" -X PUT -d 'id=1&status=1' http://eh1-nhscs-cas01.ad.nhscs.net/api/v1/components/
+        curl -H "X-Cachet-Token: 0dKkef9ucNbQ0mGbxGkZ" -X PUT -d 'id=18&status=1' http://eh1-nhscs-cas01.ad.nhscs.net/api/v1/components/
       else
         :
     fi
@@ -42,7 +42,7 @@ if ping -c 1 10.162.150.17 > /dev/null
           then
             if [ $dc01stat3 = "1" ];
               then
-                curl -H "X-Cachet-Token: 0dKkef9ucNbQ0mGbxGkZ" -X PUT -d 'id=1&status=4' http://eh1-nhscs-cas01.ad.nhscs.net/api/v1/components/1
+                curl -H "X-Cachet-Token: 0dKkef9ucNbQ0mGbxGkZ" -X PUT -d 'id=18&status=4' http://eh1-nhscs-cas01.ad.nhscs.net/api/v1/components/1
               else
                 :
             fi
